@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Server status</title>
+	<title>MBDEV Service Status</title>
 	<meta content="text/html" charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -76,15 +76,15 @@ $services = array();
 
 
 $services[] = array("port" => "80",       "service" => "Web server",                  "ip" => "") ;
-$services[] = array("port" => "21",       "service" => "FTP",                     "ip" => "") ;
-$services[] = array("port" => "3306",     "service" => "MYSQL",                   "ip" => "") ;
+//$services[] = array("port" => "21",       "service" => "FTP",                     "ip" => "") ;
+//$services[] = array("port" => "3306",     "service" => "MYSQL",                   "ip" => "") ;
 // $services[] = array("port" => "3000",     "service" => "Mastodon web",                   "ip" => "") ;
 // $services[] = array("port" => "4000",     "service" => "Mastodon streaming",                   "ip" => "") ;
 $services[] = array("port" => "22",       "service" => "Open SSH",				"ip" => "") ;
-$services[] = array("port" => "58846",     "service" => "Deluge",             	"ip" => "") ;
-$services[] = array("port" => "8112",     "service" => "Deluge Web",             	"ip" => "") ;
-$services[] = array("port" => "80",       "service" => "Internet Connection",     "ip" => "google.com") ;
-$services[] = array("port" => "8083",     "service" => "Vesta panel",             	"ip" => "") ;
+//$services[] = array("port" => "58846",     "service" => "Deluge",             	"ip" => "") ;
+//$services[] = array("port" => "8112",     "service" => "Deluge Web",             	"ip" => "") ;
+$services[] = array("port" => "22",       "service" => "Internet Connection",     "ip" => "81.140.29.123") ;
+//$services[] = array("port" => "8083",     "service" => "Vesta panel",             	"ip" => "") ;
 
 
 //begin table for status
